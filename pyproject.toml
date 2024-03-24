@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "wikitext_with_entitled_paragraphs"
+version = "0.1.0"
+description = ""
+authors = ["YawKar <yawkarpov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+transformers = {extras = ["torch"], version = "^4.38.2"}
+datasets = "^2.18.0"
+ipykernel = "^6.29.3"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
